@@ -1,0 +1,10 @@
+version: 1.*
+watch:
+  - "CMakeLists.txt": cmake ..
+  - "*.cc": |
+      make -j3
+      make test
+  - "*.h": |
+      make -j3
+      make test
+

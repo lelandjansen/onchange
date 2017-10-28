@@ -1,0 +1,10 @@
+[submodule "GoogleTest"]
+	path = src/lib/googletest
+	url = git@github.com:google/googletest
+[submodule "gFlags"]
+	path = src/lib/gflags
+	url = git@github.com:gflags/gflags
+[submodule "yaml-cpp"]
+	path = src/lib/yaml-cpp
+  url = git@github.com:jbeder/yaml-cpp
+
