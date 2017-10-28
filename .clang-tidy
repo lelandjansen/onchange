@@ -1,0 +1,4 @@
+Checks: '*,-android*,-boost*'
+WarningsAsErrors: ''
+HeaderFilterRegex: '*'
+
